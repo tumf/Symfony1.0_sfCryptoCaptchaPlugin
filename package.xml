@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.4.11" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>sfCryptoCaptchaPlugin</name>
+ <channel>plugins.symfony-project.org</channel>
+ <summary>symfony captcha plugin</summary>
+ <description>Creates very configurable captchas for symfony forms - based on the Cryptographp library.</description>
+ <lead>
+  <name>Terrance CAVENDISH</name>
+  <user>henearkrxern</user>
+  <email>henearkrxern@hotmail.fr</email>
+  <active>yes</active>
+ </lead>
+ <date>2009-04-07</date>
+ <time>00:03:47</time>
+ <version>
+  <release>0.0.3</release>
+  <api>0.0.3</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.symfony-project.org/license">MIT license</license>
+ <notes>-</notes>
+ <contents>
+  <dir name="/">
+   <file role="data" name="README" />
+   <file role="data" name="LICENSE" />
+   <dir name="config">
+    <file role="data" name="app.yml" />
+    <file role="data" name="config.php" />
+   </dir>
+   <dir name="lib">
+    <dir name="form">
+     <file role="data" name="sfCryptoCaptchaForm.class.php" />
+    </dir>
+    <dir name="helper">
+     <file role="data" name="sfCryptoCaptchaHelper.php" />
+    </dir>
+    <dir name="validator">
+     <file role="data" name="sfValidatorSfCryptoCaptcha.class.php" />
+    </dir>
+    <file role="data" name="sfCryptoCaptcha.class.php" />
+    <file role="data" name="sfCryptoCaptchaPluginRouting.class.php" />
+   </dir>
+   <dir name="modules">
+    <dir name="sfCryptoCaptcha">
+     <file role="data" name="actions/actions.class.php" />
+     <file role="data" name="templates/captchaDemoSuccess.php" />
+    </dir>
+   </dir>
+   <dir name="web">
+    <dir name="fonts">
+     <file role="data" name="Alanden_.ttf" />
+     <file role="data" name="arial.ttf" />
+     <file role="data" name="bsurp___.ttf" />
+     <file role="data" name="ELECHA__.ttf" />
+     <file role="data" name="luggerbu.ttf" />
+     <file role="data" name="RASCAL__.ttf" />
+     <file role="data" name="SCRAWL.ttf" />
+     <file role="data" name="WAVY.ttf" />
+    </dir>
+    <dir name="images">
+     <file role="data" name="reload.png" />
+    </dir>
+   </dir>
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.1</min>
+   </pearinstaller>
+   <package>
+    <name>symfony</name>
+    <channel>pear.symfony-project.com</channel>
+    <min>1.1.0</min>
+    <max>1.2.0</max>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+    <version>
+      <release>0.0.1</release>
+      <api>0.0.1</api>
+    </version>
+    <stability>
+     <release>beta</release>
+     <api>beta</api>
+    </stability>
+    <license uri="http://www.symfony-project.org/license">MIT license</license>
+    <date>2009-04-06</date>
+    <license>MIT</license>
+    <notes>
+      * henearkrxern: First version, no known bugs (somewhat stable) but there are improvements to be done (see README)
+    </notes>
+  </release>
+  <release>
+    <version>
+      <release>0.0.2</release>
+      <api>0.0.2</api>
+    </version>
+    <stability>
+     <release>beta</release>
+     <api>beta</api>
+    </stability>
+    <license uri="http://www.symfony-project.org/license">MIT license</license>
+    <date>2009-04-06</date>
+    <license>MIT</license>
+    <notes>
+      * henearkrxern: some errors in the plugin packaging and uploading (fixed)
+    </notes>
+  </release>
+  <release>
+    <version>
+      <release>0.0.3</release>
+      <api>0.0.3</api>
+    </version>
+    <stability>
+     <release>beta</release>
+     <api>beta</api>
+    </stability>
+    <license uri="http://www.symfony-project.org/license">MIT license</license>
+    <date>2009-04-07</date>
+    <license>MIT</license>
+    <notes>
+      * henearkrxern: there were some errors in the README (fixed)
+    </notes>
+  </release>
+</changelog>
+</package>
